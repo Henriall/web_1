@@ -1,0 +1,94 @@
+.header{
+    background-color: #b7c4db;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.navbar{
+    background-color: #ecc65c;
+    width: 100%;
+    height: auto;
+    float: left;
+}
+
+.content{
+    background-color: #5a85ad;
+    width: 100%;
+    height: auto;
+    float: left;
+    margin:0 auto;
+}
+
+.localizacao{
+    background-color: #0c8067;
+    width: 100%;
+    height: auto;
+    float: left;
+    
+}
+
+.contato{
+    background-color: #a7cac3;
+    width: 100%;
+    height: auto;
+    float: left;
+    padding-top: 30px;  
+    padding-bottom: 30px;  
+}
+
+.img_casa1{
+    background-color: #8f9637;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin:0px;
+    padding:0px;
+}
+
+.img_casa2{
+    background-color: #054761;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin:0px;
+    padding:0px;
+}
+
+.img_predio1{
+    background-color: #219b80;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin:0px;
+    padding:0px;
+}
+
+.img_predio2{
+    background-color: #12723a;
+    width: 50%;
+    height: auto;
+    float: left;
+    margin:0px;
+    padding:0px;
+}
+
+.footer{
+    background-color: #020329;
+    width: 100%;
+    height: auto;
+    float: left;
+    font-size: 16px;
+    color:#FFF;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media only screen and (max-width: 620px) {
+    /* For mobile phones: */
+    .header, .navbar, .content, .footer, .img_casa1, .img_casa2, .img_predio1, .img_predio2, .localizacao {
+      width: 100%;
+    }
+    .header img{
+        max-width: 50%;
+    }
+  }
